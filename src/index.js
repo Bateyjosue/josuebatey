@@ -8,7 +8,13 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <div>Hello Reactjs</div>,
+    element: <App />,
+    children: [
+      {
+        path: '',
+        element: <div>Main Contect</div>,
+      }
+    ]
   }
 ])
 root.render(
