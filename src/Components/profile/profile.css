@@ -1,0 +1,38 @@
+
+
+@media screen and (min-width: 768px) {
+  .sidebar-profiles {
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding:1.5rem 1rem;
+  }
+
+  .sidebar-profiles__image {
+    width: 50%;
+    border-radius:50%;
+    overflow: hidden;
+    
+  }
+
+  .sidebar-profiles__image img{
+    width: 100%;
+  }
+
+  .sidebar-profiles__names {
+    text-align: center;
+  }
+
+  .sidebar-profiles__names p{
+    width: 100%;
+    color: var(--gray-primary);
+    font-size: 1rem;
+    margin-top: .5rem;
+    /* text-transform: uppercase; */
+  }
+  .sidebar-profiles__names p>strong{
+    color: var(--color-primary);
+  }
+}
