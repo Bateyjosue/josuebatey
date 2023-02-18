@@ -1,0 +1,22 @@
+@media screen and  (min-width: 768px) {
+  .navigation-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+    align-items: center;
+  }
+
+  .navigation-list a {
+    color: var(--gray-primary);
+    text-decoration: none;
+  }
+
+  .navigation-list a:hover {
+    color: var(--color-primary);
+    text-decoration: underline;
+    transition: all 400ms ease-in-out;
+    text-underline-offset: .5rem;
+    text-decoration-style: wavy;
+
+  }
+}
