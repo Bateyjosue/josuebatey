@@ -49,8 +49,6 @@
     width: 50%;
     border-radius:100%;
     overflow: hidden;
-    border: solid 3px var(--color-primary);
-    box-shadow: inset 5px 5px 5px var(--gray-primary);
     
   }
 
