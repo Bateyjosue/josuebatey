@@ -39,3 +39,32 @@
     color: var(--color-primary);
   }
 }
+
+@media screen and (min-width: 1350px) {
+  .sidebar-profiles {
+    padding:2rem 1rem;
+  }
+
+  .sidebar-profiles__image {
+    width: 50%;
+    border-radius:100%;
+    overflow: hidden;
+    border: solid 3px var(--color-primary);
+    box-shadow: inset 5px 5px 5px var(--gray-primary);
+    
+  }
+
+  .sidebar-profiles__names h1{
+    font-size: 1.8rem;
+  }
+
+  .sidebar-profiles__names p{
+    width: 100%;
+    color: var(--gray-primary);
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+  .sidebar-profiles__names p>strong{
+    color: var(--color-primary);
+  }
+}
