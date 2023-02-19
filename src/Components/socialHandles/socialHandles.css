@@ -20,3 +20,15 @@
     
   }
 }
+
+@media screen and  (min-width: 1350px) {
+  .social-icons li a {
+    color: var(--gray-primary);
+    font-size: 2rem;
+  }
+
+  .social-icons li a:hover {
+    color: white;
+    
+  }
+}
