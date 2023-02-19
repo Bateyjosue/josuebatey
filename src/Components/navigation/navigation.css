@@ -7,13 +7,6 @@
     margin-top: 2rem;
   }
 
-  .active {
-    color: var(--color-primary);
-    text-decoration: underline;
-    transition: all 400ms ease-in-out;
-    text-underline-offset: .5rem;
-  }
-
   .navigation-list a {
     color: var(--gray-primary);
     text-decoration: none;
@@ -26,7 +19,13 @@
     transition: all 400ms ease-in-out;
     text-underline-offset: .5rem;
     text-decoration-style: wavy;
+  }
 
+  a.active{
+    color: var(--color-primary);
+    text-decoration: underline;
+    transition: all 400ms ease-in-out;
+    text-underline-offset: .5rem;
   }
 
 }
