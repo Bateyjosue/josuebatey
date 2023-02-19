@@ -2,13 +2,22 @@
   .navigation-list {
     display: flex;
     flex-direction: column;
-    gap: 1.3rem;
+    gap: 1rem;
     align-items: center;
+    margin-top: 2rem;
+  }
+
+  .active {
+    color: var(--color-primary);
+    text-decoration: underline;
+    transition: all 400ms ease-in-out;
+    text-underline-offset: .5rem;
   }
 
   .navigation-list a {
     color: var(--gray-primary);
     text-decoration: none;
+    font-size: .8rem;
   }
 
   .navigation-list a:hover {
@@ -19,4 +28,5 @@
     text-decoration-style: wavy;
 
   }
+
 }

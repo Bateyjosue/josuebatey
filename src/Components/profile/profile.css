@@ -6,8 +6,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 1rem;
-    padding:1.5rem 1rem;
+    gap: .6rem;
+    padding:1rem 1rem;
   }
 
   .sidebar-profiles__image {
@@ -25,12 +25,15 @@
     text-align: center;
   }
 
+  .sidebar-profiles__names h1{
+    font-size: 1.5rem;
+  }
+
   .sidebar-profiles__names p{
     width: 100%;
     color: var(--gray-primary);
-    font-size: 1rem;
+    font-size: .8rem;
     margin-top: .5rem;
-    /* text-transform: uppercase; */
   }
   .sidebar-profiles__names p>strong{
     color: var(--color-primary);

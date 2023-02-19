@@ -1,18 +1,18 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import './navigation.css';
 
 const Navigation = () => {
   return (
     <nav className='navigation-list'>
-      <Link to="home" >Home</Link>
-      <Link to='about' className='nav-item'>About</Link>
-      <Link to='services' className='nav-item'>Services</Link>
-      <Link to='skills' className='nav-item'>Skills</Link>
-      <Link to='education' className='nav-item'>Education</Link>
-      <Link to='experience' className='nav-item'>Experience</Link>
-      <Link to='blog' className='nav-item'>Blog</Link>
-      <Link to='contact' className='nav-item'>Contact</Link>
+      <NavLink to="home" >Home</NavLink>
+      <NavLink to='about' className={({isActive}) => isActive ? 'active' : ''}>About</NavLink>
+      <NavLink to='services' className={({isActive}) => isActive ? 'active' : ''}>Services</NavLink>
+      <NavLink to='skills' className={({isActive}) => isActive ? 'active' : ''}>Skills</NavLink>
+      <NavLink to='education' className={({isActive}) => isActive ? 'active' : ''}>Education</NavLink>
+      <NavLink to='experience' className={({isActive}) => isActive ? 'active' : ''}>Experience</NavLink>
+      <NavLink to='blog' className={({isActive}) => isActive ? 'active' : ''}>Blog</NavLink>
+      <NavLink to='contact' className={({isActive}) => isActive ? 'active' : ''}>Contact</NavLink>
     </nav>
   );
 };
