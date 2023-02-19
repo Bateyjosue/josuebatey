@@ -1,0 +1,22 @@
+
+@media screen and  (min-width: 768px) {
+  .social-icons {
+    width: 100%;
+    display:flex;
+    gap: 1.5rem;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    margin-top:5rem;
+  }
+
+  .social-icons li a {
+    color: var(--color-primary);
+    font-size: 2rem;
+  }
+
+  .social-icons li a:hover {
+    color: var(--gray-primary);
+    
+  }
+}
