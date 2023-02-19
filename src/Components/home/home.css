@@ -1,0 +1,59 @@
+@media screen and  (min-width: 768px) {
+  .home-container {
+    width: 100%;
+    height: 100%;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    background-image: url('../../Assets/headline.png');
+    background-size: 80vh;
+    background-position: right center;
+    background-repeat: no-repeat;
+  }
+
+  .headline-greeting {
+    padding: 4rem;
+    display: flex;
+    align-items: center;
+
+    gap: 3rem
+  }
+
+  .headline-greeting span{
+    color: var(--gray-primary)
+  }
+
+  .headline-section {
+    justify-self: flex-end;
+    align-self: flex-end;
+    margin:4rem;
+    position:absolute;
+  }
+
+  
+  .headline-section button {
+    background: var(--color-primary);
+    padding: 1rem 3rem;
+    color: #fff;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    letter-spacing: .05em;
+    font-size: medium;
+    border-radius: .4rem;
+    margin-top: 4rem;
+  }
+  
+  .headline-section p{
+    position: absolute;
+    margin: -3rem -1rem;
+    width: 250%;
+    line-height: 1.8rem;
+  }
+
+  .headline-section p strong {
+    background: var(--color-primary);
+    color: var(--bg-primary);
+    padding: .4rem 0;
+  }
+} 

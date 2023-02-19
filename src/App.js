@@ -12,7 +12,7 @@ function App() {
         <SocialHandles />
         <footer>&copy;Josue-batey, &copy;2023. All right reserved </footer>
       </div>
-      <main>
+      <main className='main-container'>
         <Outlet/>
       </main>
     </div>

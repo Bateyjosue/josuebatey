@@ -5,7 +5,7 @@ import './navigation.css';
 const Navigation = () => {
   return (
     <nav className='navigation-list'>
-      <NavLink to="home" className={({isActive}) => isActive ? 'active' : ''} >Home</NavLink>
+      <NavLink to="/" className={({isActive}) => isActive ? 'active' : ''} >Home</NavLink>
       <NavLink to='about' className={({isActive}) => isActive ? 'active' : ''}>About</NavLink>
       <NavLink to='services' className={({isActive}) => isActive ? 'active' : ''}>Services</NavLink>
       <NavLink to='skills' className={({isActive}) => isActive ? 'active' : ''}>Skills</NavLink>
