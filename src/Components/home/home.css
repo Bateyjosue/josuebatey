@@ -57,3 +57,30 @@
     padding: .4rem 0;
   }
 } 
+
+@media screen and  (min-width: 1200px) {
+  .home-container {
+    padding-bottom: 10rem;
+    margin-bottom: 5rem;
+  }
+
+  .headline-greeting {
+    margin-left: 2rem;
+  }
+
+  .headline-section {
+    font-size: 1.5rem;
+  }
+  
+  .headline-section p{
+    position: absolute;
+    width:380%;
+    line-height: 2.2rem;
+  }
+
+  .headline-section p strong {
+    background: var(--color-primary);
+    color: var(--bg-primary);
+    padding: .4rem 0;
+  }
+} 

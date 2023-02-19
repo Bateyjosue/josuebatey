@@ -8,11 +8,11 @@ const Home = () => {
         <span>Hi,</span>
         <TypeAnimation
           sequence={[
-            'Hello', 3000, 
-            'Hallo', 2000, 
-            'Jambo', 3000,
-            'Mbote', 3000,
-            'Bonjour', 3000
+            'Hello',  
+            'Hallo',  
+            'Jambo',
+            'Mbote',
+            'Hello, Hallo, Jambo, Mbote, Bonjour', 5000
           ]}
           wrapper="div"
           cursor={true}
